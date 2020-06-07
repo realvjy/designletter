@@ -1,40 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import { rhythm, scale } from "../utils/typography"
+import "./layout.scss"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
-  let header
-
-  if (location.pathname === rootPath) {
-    header = (
-      <h1>
-        <Link>
-          {title}
-        </Link>
-      </h1>
+  let header = (
+      <>
+      <div className="announce-wrapper skillshare">
+        <div className="container">
+          <div className="an-details">
+          </div>
+        </div>
+      </div>
+      </>
     )
-  } else {
-    header = (
-      <h3>
-        <Link>
-          {title}
-        </Link>
-      </h3>
+    return (
+      <div>
+        <header>{header}</header>
+        <main>{children}</main>
+      </div>
     )
-  }
-  return (
-    <div>
-      <header>{header}</header>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, curated by
-        {` `}
-        <a href="https://www.vijayverma.co">vijay verma.</a>
-      </footer>
-    </div>
-  )
 }
 
 export default Layout

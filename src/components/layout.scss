@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+// Variables
+$black: #000000;
+$white: #ffffff;
+$lightbg: #EEE7D6;
+$yellow: #F7C945;
+$grey: #F1EDE9;
+$blue: #0D38CE;
+$light-blue: #75BDFF;
+$red: #CA324F;
+$light-grey: #353639;
+
+// fonts
+$inter: 'Inter', sans-serif;
+
+// Breakpoints
+$mobile-landscape: 30rem; // 480px
+$tablet: 40rem; // 640px
+$tablet-wide: 48rem; // 768px
+$desktop: 64rem; // 1024px
+$widescreen: 71.25rem; // 1140px
+
+:root {
+    --emo: cubic-bezier(.4, 0, .2, 1);
+    --emo-in-out: cubic-bezier(.4, 0, .2, 1);
+    --emo-out: cubic-bezier(0, .2, .2, 1);
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  letter-spacing: -1px;
+ }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+q {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+
+
+html,  body{
+  font-family: $inter;
+  background: $blue;
+  color: $white;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 120%;
+}
+
+p{
+  line-height: 160%;
+}
+a{
+  text-decoration: none;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+img{
+  vertical-align: middle;
+}
+// Basic layout
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  @media (max-width: $tablet-wide){
+      width: 100%;
+  }
+}
+
+section{
+    position: relative;
+}
+
+.main-title{
+  padding-top: 150px;
+  .logomark{
+    max-height: 50px;
+    margin-left: -58px;
+    position: absolute;
+  }
+  h1{
+    letter-spacing: -1.2px;
+    font-size: 46px;
+    line-height: 105%;
+  }
+  .logo{
+    font-weight: 800;
+  }
+  .detail-text{
+    font-weight: 700;
+    color: $light-blue;
+  }
+}
+
+.secondary-text{
+  margin-top: 24px;
+  p{
+    font-size: 24px;
+    color: $light-blue;
+    line-height: 140%;
+    font-weight: 500;
+    letter-spacing: -0.75px;
+  }
+}
+
+.subscribe-box{
+  .form{
+    .newsletter{
+      display: flex;
+      flex-direction: row;
+      margin-top: 36px;
+      @media (max-width: $mobile-landscape){
+          flex-direction: column;
+      }
+      .mc-field-group{
+        width: 70%;
+        @media (max-width: $mobile-landscape){
+            width: 100%;
+        }
+        .inputbox{
+          width: 95%;
+          display: flex;
+          .email{
+            padding: 16px 24px;
+            font-family: $inter;
+            font-weight: 500;
+            font-size: 20px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            resize: vertical;
+            color: $black;
+            width: 100%;
+            flex-grow: 1;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+          }
+        }
+      }
+      .sub-action{
+        display: block;
+        width: 30%;
+        @media (max-width: $mobile-landscape){
+            width: 100%;
+        }
+        .sub-button{
+          padding: 16px 24px;
+          font-family: $inter;
+          font-weight: 600;
+          font-size: 20px;
+          width: 100%;
+          background-color: $black;
+          color: white;
+          border: 1px solid $black;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          cursor: pointer;
+          border-radius: 8px;
+          @media (max-width: $mobile-landscape){
+              margin-top: 20px;
+          }
+          &:hover{
+            background-color: lighten($black, 5%);
+          }
+        }
+      }
+    }
+    h1{
+      font-size: 36px;
+      font-weight: 600;
+      font-family: $inter;
+      line-height: 130%;
+      transition-timing-function: cubic-bezier(.4,0,.2,1);
+      transition-property: color;
+      transition-duration: .5s;
+      @media (max-width: $mobile-landscape){
+          font-size: 32px;
+      }
+    }
+    p{
+      font-size: 22px;
+      line-height: 150%;
+      margin-top: 10px;
+      @media (max-width: $mobile-landscape){
+          font-size: 18px;
+      }
+    }
+  }
+}
