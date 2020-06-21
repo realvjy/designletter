@@ -115,12 +115,13 @@ section{
   .logomark{
     max-height: 50px;
     margin-left: -58px;
+    margin-top: 4px;
     position: absolute;
   }
   h1{
-    letter-spacing: -1.2px;
-    font-size: 46px;
-    line-height: 105%;
+    letter-spacing: -1.5px;
+    font-size: 52px;
+    line-height: 108%;
   }
   .logo{
     font-weight: 800;
@@ -128,13 +129,14 @@ section{
   .detail-text{
     font-weight: 700;
     color: $light-blue;
+    letter-spacing: -1.2px;
   }
 }
 
 .secondary-text{
   margin-top: 24px;
   p{
-    font-size: 24px;
+    font-size: 22px;
     color: $light-blue;
     line-height: 140%;
     font-weight: 500;
