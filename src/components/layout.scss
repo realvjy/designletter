@@ -110,26 +110,56 @@ section{
     position: relative;
 }
 
+.header_section{
+  @media (max-width: $mobile-landscape){
+       padding: 24px;
+  }
+}
+
 .main-title{
   padding-top: 150px;
+  h1{
+    letter-spacing: -1.5px;
+    font-size: 52px;
+    line-height: 110%;
+    @media (max-width: $mobile-landscape){
+      font-size: 36px;
+    }
+  }
+
+  .logo{
+    font-weight: 800;
+    @media (max-width: $mobile-landscape){
+      text-align: center;
+    }
+  }
+
   .logomark{
     max-height: 50px;
     margin-left: -58px;
     margin-top: 4px;
     position: absolute;
+    display: inline-block;
+    @media (max-width: $mobile-landscape){
+      position: relative;
+      margin-left: 0;
+      margin-bottom: 36px;
+    }
   }
-  h1{
-    letter-spacing: -1.5px;
-    font-size: 52px;
-    line-height: 108%;
-  }
-  .logo{
-    font-weight: 800;
+
+  .title-text{
+    display: inline-block;
+    @media (max-width: $mobile-landscape){
+      text-align: left;
+    }
   }
   .detail-text{
     font-weight: 700;
     color: $light-blue;
     letter-spacing: -1.2px;
+  }
+  @media (max-width: $mobile-landscape){
+    padding-top: 44px;
   }
 }
 
@@ -141,6 +171,12 @@ section{
     line-height: 140%;
     font-weight: 500;
     letter-spacing: -0.75px;
+    @media (max-width: $mobile-landscape){
+      font-size: 18px;
+    }
+  }
+  @media (max-width: $mobile-landscape){
+    margin-top: 16px;
   }
 }
 
@@ -152,6 +188,7 @@ section{
       margin-top: 36px;
       @media (max-width: $mobile-landscape){
           flex-direction: column;
+          margin-top: 24px;
       }
       .mc-field-group{
         width: 70%;
@@ -161,6 +198,9 @@ section{
         .inputbox{
           width: 95%;
           display: flex;
+          @media (max-width: $mobile-landscape){
+            width: 100%;
+          }
           .email{
             padding: 16px 24px;
             font-family: $inter;
