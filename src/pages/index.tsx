@@ -35,7 +35,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Designletter - A weekly newsletter for humans" />
       <section className="header_section">
         <div className="container">
           <div className="main-title">
@@ -71,12 +71,36 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                     </div>
                   </form>
                 </div>
-
-
+              </div>
+              <div className="social-p">
+                <p>Join 1200+ memmbers and get inspired and update</p>
               </div>
           </div>
         </div>
       </section>
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-wrap">
+            <div className="credit">
+              <h4>Designletter, 2020 <a href="#">Privacy policy</a></h4>
+            </div>
+            <div className="quote">
+              <h4>Curated by <a href="https://vijayverma.co/?ref=illlustrations" target="__blank">vijay verma. </a></h4>
+              <ul className="menu-social">
+                  <li>
+                    <a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg"/></a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </Layout>
   )
 }

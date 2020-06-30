@@ -35,11 +35,19 @@ const SEO = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s`}
       meta={[
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `keywords`,
+          content: `designletter, newsletter, developer, design letter, vijay verma, realvjy, weekly newsletter, design inspiration, ux design, design articles, ui design, ui ux, articles`,
+        },
+        {
+          property: `og:image`,
+          content: `https://designletter.co/preview.jpg`,
         },
         {
           property: `og:title`,
@@ -54,12 +62,24 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:site_name`,
+          content: `vijayverma.co`,
+        },
+        {
+          property: `og:url`,
+          content: site.siteMetadata.siteUrl,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
+          content: `@realvjy`,
+        },
+        {
+          name: `twitter:url`,
+          content: site.siteMetadata.siteUrl,
         },
         {
           name: `twitter:title`,
@@ -68,6 +88,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://designletter.co/preview.jpg`,
         },
       ].concat(meta)}
     />

@@ -15,9 +15,9 @@ const Layout = ({ location, title, children }) => {
       </>
     )
     return (
-      <div>
+      <div className="designletter">
         <header>{header}</header>
-        <main>{children}</main>
+        <main  className="main-layout">{children}</main>
       </div>
     )
 }
