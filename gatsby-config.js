@@ -5,7 +5,7 @@ module.exports = {
       name: `vijay verma`,
       summary: `design chef`,
     },
-    description: `Fine curated newsletter centered on product and interaction designers, researchers and creatives.`,
+    description: `For your dose of design inspiration, latest resources, articles, research links, tools, and the coolest tips from industry leaders`,
     siteUrl: `https://designletter.co`,
     social: {
       twitter: `realvjy`,
