@@ -73,8 +73,15 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                 </div>
               </div>
               <div className="social-p">
-                <p>Join 1200+ members and get updated weekly</p>
+                <p>Join 1300+ members and get updated weekly</p>
               </div>
+          </div>
+          <div className="latest-issue">
+            <a href="https://bit.ly/designletter-01" className="issue-box">
+              <h2>Issue #01 - The journey begins</h2>
+              <h5>July 7, 2020</h5>
+            </a>
+            <p>You can <a href="https://bit.ly/designletter">browser all older issues</a> that have sent before here</p>
           </div>
         </div>
       </section>
@@ -94,7 +101,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                     <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/realvjy" target="__blank"><img src="/twitter.svg"/></a>
+                    <a href="https://twitter.com/designletterco" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
               </ul>
             </div>
