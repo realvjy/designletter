@@ -81,7 +81,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               <h2>Issue #01 - The journey begins</h2>
               <h5>July 7, 2020</h5>
             </a>
-            <p>You can <a href="https://bit.ly/designletter">browser all older issues</a> that have sent before here</p>
+            <p>You can <a href="https://bit.ly/designletter">browse all older issues</a> that have sent before here</p>
           </div>
         </div>
       </section>
