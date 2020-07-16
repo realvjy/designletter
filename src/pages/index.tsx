@@ -78,7 +78,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
           </div>
           <div className="latest-issue">
             <a href="https://bit.ly/designletter-02" className="issue-box">
-              <h2>Issue #01 - 3D is the future</h2>
+              <h2>Issue #02 - 3D is the future</h2>
               <h5>July 15, 2020</h5>
             </a>
             <p>You can <a href="https://bit.ly/designletter">browse all older issues</a> that have sent before here</p>
