@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
       <section className="header_section">
         <div className="container">
           <div className="main-title">
-            <h1 className="logo"><img src="/designletter-logo.png" className="logomark"/><div className="title-text">designletter <span className="detail-text">is a weekly newsletter for humans.</span></div></h1>
+            <h1 className="logo"><img src="/designletter-logo.png" className="logomark"/><div className="title-text">designletter <span className="detail-text">is a weekly newsletter for humans</span></div></h1>
           </div>
           <div className="secondary-text">
             <p>Subscribe to get your dose of design inspiration, latest resources, articles, research links, tools, and the coolest tips from industry leaders; directly in your inbox.</p>
@@ -73,13 +73,13 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                 </div>
               </div>
               <div className="social-p">
-                <p>Join 1300+ members and get updated weekly</p>
+                <p>Join 1500+ members and get updated weekly</p>
               </div>
           </div>
           <div className="latest-issue">
-            <a href="https://bit.ly/designletter-01" className="issue-box">
-              <h2>Issue #01 - The journey begins</h2>
-              <h5>July 7, 2020</h5>
+            <a href="https://bit.ly/designletter-02" className="issue-box">
+              <h2>Issue #01 - 3D is the future</h2>
+              <h5>July 15, 2020</h5>
             </a>
             <p>You can <a href="https://bit.ly/designletter">browse all older issues</a> that have sent before here</p>
           </div>
