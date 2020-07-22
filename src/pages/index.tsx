@@ -73,13 +73,13 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                 </div>
               </div>
               <div className="social-p">
-                <p>Join 1500+ members and get updated weekly</p>
+                <p>Join 1600+ members and get updated weekly</p>
               </div>
           </div>
           <div className="latest-issue">
-            <a href="https://bit.ly/designletter-02" className="issue-box">
-              <h2>Issue #02 - 3D is the future</h2>
-              <h5>July 15, 2020</h5>
+            <a href="https://bit.ly/designletter-03" className="issue-box">
+              <h2>Issue #03 - Women in Desing</h2>
+              <h5>July 22, 2020</h5>
             </a>
             <p>You can <a href="https://bit.ly/designletter">browse all older issues</a> that have sent before here</p>
           </div>
