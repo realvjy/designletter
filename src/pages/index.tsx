@@ -89,21 +89,18 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
         <div className="container">
           <div className="footer-wrap">
             <div className="credit">
-              <h4>Designletter, 2020 <a href="#">Privacy policy</a></h4>
-            </div>
-            <div className="quote">
-              <h4>Curated by <a href="https://vijayverma.co/?ref=illlustrations" target="__blank">vijay verma. </a></h4>
+              <h4>Designletter, 2020</h4>
               <ul className="menu-social">
                   <li>
-                    <a href="https://dribbble.com/realvjy" target="__blank"><img src="/dribbble.svg"/></a>
-                  </li>
-                  <li>
-                    <a href="https://instagram.com/realvjy" target="__blank"><img src="/insta.svg"/></a>
+                    <a href="https://instagram.com/designletterco" target="__blank"><img src="/insta.svg"/></a>
                   </li>
                   <li>
                     <a href="https://twitter.com/designletterco" target="__blank"><img src="/twitter.svg"/></a>
                   </li>
               </ul>
+            </div>
+            <div className="quote">
+              <h4>Curated by <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a> & <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a></h4>
             </div>
           </div>
         </div>

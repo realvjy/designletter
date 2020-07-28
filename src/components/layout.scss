@@ -298,18 +298,23 @@ section{
     }
   }
   .credit{
+    display: flex;
     h4{
       color: $light-blue;
       font-weight: 500;
       letter-spacing: 0;
     }
-    a{
-      margin-left: 12px;
-      font-weight: 500;
-      color: $light-blue;
-      border-bottom: .5px dotted $light-blue;
-      &:hover{
-        color: $white;
+    .menu-social{
+      display: flex;
+      li{
+        flex-direction: row;
+        margin-left: 12px;
+        a{
+          display: block;
+          &:hover{
+            opacity: 0.8;
+          }
+        }
       }
     }
     @media (max-width: $mobile-landscape){
@@ -343,7 +348,6 @@ section{
           }
         }
       }
-
     }
   }
 }
