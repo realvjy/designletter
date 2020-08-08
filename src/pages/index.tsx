@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
       <section className="header_section">
         <div className="container">
           <div className="main-title">
-            <h1 className="logo"><img src="/designletter-logo.png" className="logomark"/><div className="title-text">designletter <span className="detail-text">is a weekly newsletter for humans</span></div></h1>
+            <h1 className="logo"><img src="/designletter-logo.png" className="logomark"/><div className="title-text">designletter <span className="detail-text">is a weekly newsletter for everyone</span></div></h1>
           </div>
           <div className="secondary-text">
             <p>Subscribe to get your dose of design inspiration, latest resources, articles, research links, tools, and the coolest tips from industry leaders; directly in your inbox.</p>
