@@ -77,9 +77,9 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </div>
           </div>
           <div className="latest-issue">
-            <a href="https://bit.ly/designletter-05" className="issue-box">
-              <h2>Issue #05 - Designing with Design System</h2>
-              <h5>Aug 5, 2020</h5>
+            <a href="https://bit.ly/designletter-06" className="issue-box">
+              <h2>#06 - The World of Game Design</h2>
+              <h5>Aug 12, 2020</h5>
             </a>
 
             <p>Here's an archive of all the <a href="https://bit.ly/designletter">previous issues</a></p>
