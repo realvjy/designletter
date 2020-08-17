@@ -371,12 +371,14 @@ section{
     text-transform: uppercase;
     font-weight: 600;
     color: #2B82D2;
+
   }
   .issue-box{
     background: #1A49EE;
     padding: 12px 24px;
     border-radius: 8px;
     display: block;
+    margin-top: 24px;
     &:hover{
       background: #1640D8;
     }
@@ -386,6 +388,10 @@ section{
       font-weight: 700;
       line-height: 40px;
       letter-spacing: -.5px;
+      @media (max-width: $mobile-landscape){
+          margin-top: 22px;
+          line-height: 32px;
+      }
     }
     h5{
       font-size: 16px;
@@ -414,5 +420,29 @@ section{
         color: #ffffff;
       }
     }
+  }
+}
+
+.title-back{
+  margin-top: 120px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  @media (max-width: $mobile-landscape){
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 40px;
+  }
+  a{
+    margin-left: -68px;
+    margin-right: 12px;
+    @media (max-width: $mobile-landscape){
+        margin: 0;
+        margin-bottom: 24px;
+    }
+  }
+  h4{
+    font-weight: 800;
+    font-size: 48px;
   }
 }

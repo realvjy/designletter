@@ -72,8 +72,9 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                   </form>
                 </div>
               </div>
+
               <div className="social-p">
-                <p>Join 1600+ members and get updated weekly</p>
+                <p>Join 1700+ members and get updated weekly</p>
               </div>
           </div>
           <div className="latest-issue">
@@ -81,8 +82,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               <h2>#06 - The World of Game Design</h2>
               <h5>Aug 12, 2020</h5>
             </a>
-
-            <p>Here's an archive of all the <a href="https://bit.ly/designletter">previous issues</a></p>
+            <p>Here's an archive of all the <a href="/archive">previous issues</a></p>
           </div>
         </div>
       </section>
