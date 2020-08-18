@@ -12,11 +12,11 @@ class Archive extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Designletter | Arhcive" />
+        <SEO title="Designletter | Archive" />
         <section className="header_section">
           <div className="container">
             <div className="title-back">
-              <a href="/"><img src="/back.svg"/></a><h4>Arcihve</h4>
+              <a href="/"><img src="/back.svg"/></a><h4>Archive</h4>
             </div>
             <div className="latest-issue">
               {posts.map(({ node }) => {

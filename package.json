@@ -1,7 +1,7 @@
 {
   "name": "Designletter",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A weekly newsletter for everyone",
   "version": "0.1.0",
   "author": "vijay verma <hello@vijayverma.co>",
   "bugs": {

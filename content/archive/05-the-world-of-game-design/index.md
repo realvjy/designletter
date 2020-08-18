@@ -1,5 +1,5 @@
 ---
-title: "#05 - DESIGNING WITH DESIGN SYSTEM"
+title: "#05 - Designing with Design System"
 date: 2020-08-05
 description: "fifth"
 author: "vijay verma & aakarshna"

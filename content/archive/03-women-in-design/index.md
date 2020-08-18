@@ -1,5 +1,5 @@
 ---
-title: "#03 - WOMEN IN DESIGN"
+title: "#03 - Women in Design"
 date: 2020-07-22
 description: "first issue"
 author: "vijay verma & aakarshna"

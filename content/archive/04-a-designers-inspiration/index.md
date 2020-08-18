@@ -1,5 +1,5 @@
 ---
-title: "#04 - A DESIGNER’S INSPIRATION"
+title: "#04 - A Designer's Inspiration"
 date: 2020-07-29
 description: "first issue"
 author: "vijay verma & aakarshna"

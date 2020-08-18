@@ -1,5 +1,5 @@
 ---
-title: "#01 - THE JOURNEY BEGINS"
+title: "#01 - The journey begins"
 date: 2020-07-07
 description: "first issue"
 author: "vijay verma"

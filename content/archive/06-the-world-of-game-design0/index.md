@@ -1,7 +1,7 @@
 ---
 title: "#06 - The world of game design"
 date: 2020-08-12
-description: "fifth"
+description: "six"
 author: "vijay verma & aakarshna"
 featured: false
 image: ./thumbnail-browser-landscape.png
