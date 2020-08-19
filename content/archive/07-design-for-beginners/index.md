@@ -4,7 +4,7 @@ date: 2020-08-19
 description: "seven"
 author: "vijay verma & aakarshna"
 featured: false
-image: ./thumbnail-browser-landscape.png
+image: ./issue-07.png
 mailchimp_link: "https://bit.ly/designletter-07"
 category:
   - newsletter
