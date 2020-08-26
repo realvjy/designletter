@@ -11,4 +11,4 @@ category:
 tags:
   - dot
 ---
-<li><a href="https://bit.ly/designletter-06">A4 Size</a></li>
+<li><a href="https://bit.ly/designletter-07">A4 Size</a></li>
