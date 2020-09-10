@@ -8,7 +8,7 @@ module.exports = {
     description: `For your dose of design inspiration, latest resources, articles, research links, tools, and the coolest tips from industry leaders`,
     siteUrl: `https://designletter.co`,
     social: {
-      twitter: `realvjy`,
+      twitter: `designletterco`,
     },
   },
   plugins: [

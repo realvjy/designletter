@@ -43,7 +43,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `keywords`,
-          content: `designletter, newsletter, developer, design letter, vijay verma, realvjy, weekly newsletter, design inspiration, ux design, design articles, ui design, ui ux, articles`,
+          content: `designletter, newsletter, developer, design letter, vijay verma, aakarshna, realvjy, weekly newsletter, design inspiration, ux design, design articles, ui design, ui ux, articles`,
         },
         {
           property: `og:image`,
