@@ -1,6 +1,6 @@
 ---
 title: "#10 - Designing logos"
-date: 2020-09-10
+date: 2020-09-09
 description: "10"
 author: "vijay verma & aakarshna"
 featured: false
