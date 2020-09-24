@@ -78,9 +78,9 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </div>
           </div>
           <div className="latest-issue">
-            <a href="http://bit.ly/designletter-11" className="issue-box">
-              <h2>#11 - Understanding typography</h2>
-              <h5>Sep 16, 2020</h5>
+            <a href="http://bit.ly/designletter-12" className="issue-box">
+              <h2>#12 - Your Ultimate Guide To Copywriting That Sells</h2>
+              <h5>Sep 23, 2020</h5>
             </a>
             <p>Here's an archive of all the <a href="/archive">previous issues</a></p>
           </div>
@@ -101,7 +101,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </ul>
             </div>
             <div className="quote">
-              <h4>Curated by <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a> & <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a></h4>
+              <h4>Curated by <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a> & <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a></h4>
             </div>
           </div>
         </div>
