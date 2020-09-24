@@ -51,7 +51,7 @@ class Archive extends React.Component {
                 </ul>
               </div>
               <div className="quote">
-                <h4>Curated by <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a> & <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a></h4>
+                <h4>Curated by <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a> & <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a></h4>
               </div>
             </div>
           </div>
