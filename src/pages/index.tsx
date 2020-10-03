@@ -78,9 +78,9 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </div>
           </div>
           <div className="latest-issue">
-            <a href="http://bit.ly/designletter-12" className="issue-box">
-              <h2>#12 - Your Ultimate Guide To Copywriting That Sells</h2>
-              <h5>Sep 23, 2020</h5>
+            <a href="http://bit.ly/designletter-13" className="issue-box">
+              <h2>#13 - Illustrations. More Illustrations. Some More.</h2>
+              <h5>Sep 30, 2020</h5>
             </a>
             <p>Here's an archive of all the <a href="/archive">previous issues</a></p>
           </div>
