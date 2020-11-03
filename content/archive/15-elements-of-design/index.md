@@ -1,7 +1,7 @@
 ---
 title: "#15 - Elements Of Design"
 date: 2020-10-14
-description: "13"
+description: "15"
 author: "aakarshna & vijay verma"
 featured: false
 image: ./issue-10.png
