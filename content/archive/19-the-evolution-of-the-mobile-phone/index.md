@@ -11,4 +11,4 @@ category:
 tags:
   - Productivity
 ---
-<li><a href="https://bit.ly/designletter-19">Issue 12</a></li>
+<li><a href="https://bit.ly/designletter-19">Issue 19</a></li>
