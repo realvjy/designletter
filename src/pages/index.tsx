@@ -74,7 +74,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </div>
 
               <div className="social-p">
-                <p>Join 1900+ members and get updated weekly</p>
+                <p>Join 2000+ members and get updated weekly</p>
               </div>
           </div>
           <div className="latest-issue">
