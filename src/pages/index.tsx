@@ -78,9 +78,9 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </div>
           </div>
           <div className="latest-issue">
-            <a href="https://bit.ly/designletter-20" className="issue-box">
-              <h2>#20 - Your Career in Design‍</h2>
-              <h5>Nov 18, 2020</h5>
+            <a href="https://bit.ly/designletter-21" className="issue-box">
+              <h2>#21 - Why we love Figma</h2>
+              <h5>Nov 25, 2020</h5>
             </a>
             <p>Here's an archive of all the <a href="/archive">previous issues</a></p>
           </div>
