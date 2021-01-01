@@ -1,5 +1,5 @@
 ---
-title: "#26 - "
+title: "#26 - Design in 2020 — Wrapped"
 date: 2020-12-30
 description: "26"
 author: "aakarshna & vijay verma"
