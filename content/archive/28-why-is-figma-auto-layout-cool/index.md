@@ -1,5 +1,5 @@
 ---
-title: "#28 - Design in 2020 — Wrapped"
+title: "#28 - Why is Figma Auto Layout Cool?"
 date: 2021-01-13
 description: "28"
 author: "aakarshna & vijay verma"

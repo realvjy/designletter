@@ -1,5 +1,5 @@
 ---
-title: "#29 - Design in 2020 — Wrapped"
+title: "#29 - Steal like an artist"
 date: 2021-01-20
 description: "29"
 author: "aakarshna & vijay verma"

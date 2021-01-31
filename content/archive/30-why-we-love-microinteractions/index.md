@@ -1,5 +1,5 @@
 ---
-title: "#30 - Design in 2020 — Wrapped"
+title: "#30 - Why we love microinteractions"
 date: 2021-01-27
 description: "26"
 author: "aakarshna & vijay verma"
