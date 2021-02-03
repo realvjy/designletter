@@ -78,11 +78,16 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </div>
           </div>
           <div className="latest-issue">
-            <a href="https://bit.ly/designletter-30" className="issue-box">
-              <h2>#30 - Why we love microinteractions</h2>
-              <h5>Jan 27, 2021</h5>
+            <a href="https://bit.ly/designletter-31" className="issue-box">
+              <h2>#31 - All About Empty States</h2>
+              <h5>Feb 3, 2021</h5>
             </a>
             <p>Here's an archive of all the <a href="/archive">previous issues</a></p>
+          </div>
+          <div className="sponser-page">
+            <a href="/sponsership" className="issue-box">
+              Sponser next designletter issue
+            </a>
           </div>
         </div>
       </section>

@@ -446,3 +446,56 @@ section{
     font-size: 48px;
   }
 }
+
+.sponser-details{
+  margin-top: 24px;
+  h4{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+  a{
+    color: $white;
+    font-weight: 600;
+    border-bottom: 1px dotted $white;
+    &:hover{
+      color: $light-blue
+    }
+  }
+  p{
+    font-size: 20px;
+    color: $light-blue;
+    line-height: 140%;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    @media (max-width: $mobile-landscape){
+      font-size: 18px;
+    }
+    strong{
+      color: $white;
+      font-weight: 500;
+    }
+
+  }
+  @media (max-width: $mobile-landscape){
+    margin-top: 16px;
+  }
+}
+
+.sponser-page{
+  margin-top: 44px;
+  text-align: center;
+  border: 1px solid #1A49EE;
+  border-radius: 8px;
+  padding: 12px;
+  a{
+    font-size: 18px;
+    color: #75BDFF;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    &:hover{
+      color: #ffffff;
+    }
+  }
+}

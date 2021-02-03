@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class Archive extends React.Component {
+class Sponsership extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -12,27 +12,28 @@ class Archive extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Designletter | Archive" />
+        <SEO title="Designletter | Sponsership" />
         <section className="header_section">
           <div className="container">
             <div className="title-back">
-              <a href="/"><img src="/back.svg"/></a><h4>Archive</h4>
+              <a href="/"><img src="/back.svg"/></a><h4>Sponsership</h4>
             </div>
-            <div className="latest-issue">
-              {posts.map(({ node }) => {
-                const title = node.frontmatter.title || node.fields.slug
-                const date = node.frontmatter.date
-                const link = node.frontmatter.mailchimp_link
-                return (
+            <div className="sponser-details">
+              <p>Designletter is weekly newsletter that contains a list of the best and newest articles resource, job listing and more. It enterily focused on designer, developer and manager.</p>
 
-                  <div className="mock-wrap">
-                    <a href={link} className="issue-box">
-                      <h2>{title}</h2>
-                      <h5>{date}</h5>
-                    </a>
-                  </div>
-                )
-              })}
+              <h4>Newsletter Stats</h4>
+              <p>
+              Email subscribers: 2,146<br/>
+              Newsletter open rate: 35%<br/>
+              Newsletter click rate: 7%
+              </p>
+              <p>
+              We only run <strong>1 ad per issue</strong> to provide our sponsor with maximum visibility while maintaining the quality of the newsletter. The newsletter is sent out every 7 days on Wednesday. <a href="http://bit.ly/sponsership-issue">Example.</a></p>
+‍
+<p><a href="https://forms.gle/CdoD7Eqjp8vFNwzC7">Click here</a> to learn more about the pricing and content requirements.</p>
+‍
+<p>If you have any questions or if you like to book an ad in more than just one issue, please email us on <a href="mailto:vijay@designletter.co?subject=designletter enquiry">vijay@designletter.co</a>
+              </p>
             </div>
           </div>
         </section>
@@ -60,7 +61,7 @@ class Archive extends React.Component {
     )
   }
 }
-export default Archive
+export default Sponsership
 
 export const pageQuery = graphql`
   query {
