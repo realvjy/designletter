@@ -5,12 +5,14 @@
 $black: #000000;
 $white: #ffffff;
 $lightbg: #EEE7D6;
-$yellow: #F7C945;
+$yellow: #FFB03A;
 $grey: #F1EDE9;
-$blue: #0D38CE;
-$light-blue: #75BDFF;
-$red: #CA324F;
+$blue: #002195;
+$light-blue: #7997FF;
+$red: #ED3F62;
 $light-grey: #353639;
+$sky: #6AF6FF;
+$blue-2: #0227AA;
 
 // fonts
 $inter: 'Inter', sans-serif;
@@ -98,7 +100,7 @@ img{
 }
 // Basic layout
 .container{
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
   position: relative;
   @media (max-width: $tablet-wide){
@@ -114,16 +116,101 @@ section{
   @media (max-width: $mobile-landscape){
        padding: 24px;
   }
+
+  .top_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    margin: 0 16px;
+    vertical-align: middle;
+    align-items: center;
+    border-bottom: 2px solid $blue-2;
+    @media (max-width: $mobile-landscape){
+         flex-direction: column;
+         padding: 24px;
+    }
+    .logo_main{
+      img{
+        height: 44px;
+      }
+    }
+    .nav_menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: $mobile-landscape){
+           flex-direction: column;
+      }
+      .menu_text{
+        ul{
+          display: flex;
+          li{
+            padding: 16px 8px;
+            a{
+              color: $light-blue;
+              font-weight: 500;
+              letter-spacing: -0.5px;
+            }
+            &.active{
+              a{
+                color: $white;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      .social_link{
+        ul{
+          display: flex;
+          li{
+            padding: 8px;
+            a{
+              color: $light-blue;
+              font-weight: 500;
+              letter-spacing: -0.5px;
+            }
+            &.active{
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.gradient{
+  background-size: 100%;
+  background-repeat: repeat;
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #6AF6FF;
+  background-image: linear-gradient(180deg ,#FFFFFF, #6AF6FF);
 }
 
 .main-title{
-  padding-top: 150px;
+  padding: 48px 16px 12px 16px ;
   h1{
     letter-spacing: -1.5px;
-    font-size: 52px;
-    line-height: 110%;
+    font-size: 64px;
+    line-height: 100%;
+    font-weight: 800;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    &.gradient{
+      background-size: 100%;
+      background-repeat: repeat;
+      display: inline-block;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-color: #6AF6FF;
+      background-image: linear-gradient(180deg ,#FFFFFF, #6AF6FF);
+    }
     @media (max-width: $mobile-landscape){
-      font-size: 38px;
+      font-size:32px;
+      padding-bottom: 4px;
     }
   }
 
@@ -160,24 +247,29 @@ section{
     letter-spacing: -1.2px;
   }
   @media (max-width: $mobile-landscape){
-    padding-top: 44px;
+    padding-top: 20px;
   }
 }
 
 .secondary-text{
-  margin-top: 24px;
+  padding: 16px;
   p{
-    font-size: 22px;
+    font-size: 21px;
     color: $light-blue;
-    line-height: 140%;
-    font-weight: 500;
-    letter-spacing: -0.75px;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    strong{
+      font-weight: 600;
+      color: $sky;
+
+    }
     @media (max-width: $mobile-landscape){
       font-size: 18px;
     }
   }
   @media (max-width: $mobile-landscape){
-    margin-top: 16px;
+    margin-top: 4px;
   }
 }
 
@@ -186,7 +278,8 @@ section{
     .newsletter{
       display: flex;
       flex-direction: row;
-      margin-top: 36px;
+      padding: 0 16px;
+      margin-bottom: 32px;
       @media (max-width: $mobile-landscape){
           flex-direction: column;
           margin-top: 24px;
@@ -205,7 +298,7 @@ section{
           .email{
             padding: 16px 24px;
             font-family: $inter;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 20px;
             border: 1px solid transparent;
             border-radius: 8px;
@@ -213,9 +306,30 @@ section{
             color: $black;
             width: 100%;
             flex-grow: 1;
+
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
+            outline: none;
+            -webkit-transition: all ease 0.2s;
+            -moz-transition: all ease 0.2s;
+            -ms-transition: all ease 0.2s;
+            -o-transition: all ease 0.2s;
+            transition: all ease 0.2s;
+            &::placeholder{
+              opacity: .6;
+            }
+            &:hover, &:active{
+              outline: none;
+              border-radius: 8px;
+              border: 1px solid $light-blue;
+              -moz-box-shadow: 0 0 0 6px rgba(121, 151, 255, 0.3);
+              -webkit-box-shadow: 0 0 0 6px rgba(121, 151, 255, 0.3);
+              box-shadow: 0 0 0 6px rgba(121, 151, 255, 0.3);
+            }
+            &:focus-within::placeholder{
+              opacity: .4;
+            }
           }
         }
       }
@@ -231,9 +345,13 @@ section{
           font-weight: 600;
           font-size: 20px;
           width: 100%;
-          background-color: $black;
+          background-color: #6AF6FF;
+          background-image: linear-gradient(75deg ,$yellow, $red);
           color: white;
-          border: 1px solid $black;
+
+          // -webkit-box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+          // box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+          border: 0px solid transparent;
           -webkit-appearance: none;
           -moz-appearance: none;
           appearance: none;
@@ -243,7 +361,7 @@ section{
               margin-top: 20px;
           }
           &:hover{
-            background-color: lighten($black, 5%);
+            opacity: .9;
           }
         }
       }
@@ -289,7 +407,7 @@ section{
        padding: 24px;
   }
   .footer-wrap{
-    padding: 36px 0;
+    padding: 36px 16px;
     display: flex;
     justify-content: space-between;
     @media (max-width: $mobile-landscape){
@@ -362,46 +480,65 @@ section{
 }
 
 .latest-issue{
-  margin-top: 40px;
+  padding: 16px;
+  hr{
+    border: none;
+    height: 4px;
+    color: #333;
+    background-color: #0227AA;
+  }
   h4{
     font-size: 14px;
     letter-spacing: 4px;
     line-height: 20px;
     margin-bottom: 8px;
-    text-transform: uppercase;
     font-weight: 600;
     color: #2B82D2;
 
   }
   .issue-box{
-    background: #1A49EE;
-    padding: 12px 24px;
-    border-radius: 8px;
+    padding: 12px 0px;
     display: block;
-    margin-top: 24px;
     &:hover{
-      background: #1640D8;
+      opacity: .8;
     }
     h2{
       color: #ffffff;
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 40px;
       letter-spacing: -.5px;
       @media (max-width: $mobile-landscape){
           margin-top: 8px;
           line-height: 32px;
+          font-size: 21px;
+      }
+      img{
+        margin-left: 4px;
+        margin-bottom: 3px;
+        -webkit-transition: all ease 0.2s;
+        -moz-transition: all ease 0.2s;
+        -ms-transition: all ease 0.2s;
+        -o-transition: all ease 0.2s;
+        transition: all ease 0.2s;
+
+      }
+      &:hover{
+        img{
+          margin-left: 12px;
+        }
       }
     }
     h5{
       font-size: 16px;
       font-weight: 600;
-      line-height: 24px;
-      letter-spacing: 3px;
-      color: #75BDFF;
-      margin-bottom: 4px;
-      text-transform: uppercase;
-      opacity: .7;
+      line-height: 20px;
+      letter-spacing: 0;
+      color: $light-blue;
+      @media (max-width: $mobile-landscape){
+          font-size: 13px;
+          line-height: 8px;
+      }
     }
   }
   p{
@@ -424,7 +561,8 @@ section{
 }
 
 .title-back{
-  margin-top: 120px;
+  margin-top: 32px;
+  padding: 16px;
   display: flex;
   vertical-align: middle;
   align-items: center;
@@ -448,7 +586,8 @@ section{
 }
 
 .sponser-details{
-  margin-top: 24px;
+  margin-top: 12px;
+  padding: 16px;
   h4{
     font-size: 30px;
     font-weight: 500;
@@ -484,7 +623,7 @@ section{
 }
 
 .sponser-page{
-  margin-top: 44px;
+  margin: 16px;
   text-align: center;
   border: 1px solid #1A49EE;
   border-radius: 8px;

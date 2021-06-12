@@ -35,14 +35,38 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Designletter - A weekly newsletter for humans" />
+      <SEO title="Designletter: A weekly newsletter from the world of design" />
+
       <section className="header_section">
         <div className="container">
+          <nav className="top_nav">
+            <div className="logo_main">
+              <a href="/"><img src="designletter.png" /></a>
+            </div>
+            <div className="nav_menu">
+              <div className="menu_text">
+                <ul>
+                  <li><a href="/sponsership">sponsorship</a></li>
+                  <li><a href="/archive">archive</a></li>
+                </ul>
+              </div>
+              <div className="social_link">
+                <ul>
+                  <li>
+                    <a href="https://instagram.com/designletterco" target="__blank"><img src="/insta.svg"/></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/designletterco" target="__blank"><img src="/twitter.svg"/></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
           <div className="main-title">
-            <h1 className="logo"><img src="/designletter-logo.png" className="logomark"/><div className="title-text">designletter <span className="detail-text">is a weekly newsletter for everyone</span></div></h1>
+            <h1 className="gradient">A weekly newsletter from the world of design</h1>
           </div>
           <div className="secondary-text">
-            <p>Subscribe to get your dose of design inspiration, latest resources, articles, research links, tools, and the coolest tips from industry leaders; directly in your inbox.</p>
+            <p>Join <strong>2500+</strong> subscribers to get your dose of design inspiration, latest resources, articles, research links, tools, and the coolest tips from industry leaders; directly in your inbox.</p>
           </div>
 
           <div className="subscribe-box">
@@ -72,23 +96,16 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                   </form>
                 </div>
               </div>
+          </div>
 
-              <div className="social-p">
-                <p>Join 2000+ members and get updated weekly</p>
-              </div>
-          </div>
           <div className="latest-issue">
-            <a href="https://bit.ly/designletter-40" className="issue-box">
-              <h2>#40 Graphic Design Trends in 2021</h2>
-              <h5>April 7, 2021</h5>
-            </a>
-            <p>Here's an archive of all the <a href="/archive">previous issues</a></p>
-          </div>
-          <div className="sponser-page">
-            <a href="/sponsership" className="issue-box">
-              Sponser next designletter issue
+            <hr/>
+            <a href="https://bit.ly/designletter-49" className="issue-box">
+              <h5>Latest Issue #49 • June 9, 2021</h5>
+              <h2>The Golden Ratio <img src="arrow.svg"/></h2>
             </a>
           </div>
+
         </div>
       </section>
       <footer className="footer">
@@ -96,14 +113,6 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
           <div className="footer-wrap">
             <div className="credit">
               <h4>Designletter, 2020</h4>
-              <ul className="menu-social">
-                  <li>
-                    <a href="https://instagram.com/designletterco" target="__blank"><img src="/insta.svg"/></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/designletterco" target="__blank"><img src="/twitter.svg"/></a>
-                  </li>
-              </ul>
             </div>
             <div className="quote">
               <h4>Curated by <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a> & <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a></h4>
