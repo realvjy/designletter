@@ -63,7 +63,7 @@ class Archive extends React.Component {
           <div className="container">
             <div className="footer-wrap">
               <div className="credit">
-                <h4>Designletter, 2020</h4>
+                <h4>Designletter, 2021</h4>
               </div>
               <div className="quote">
                 <h4>Curated by <a href="http://aakarshna.co/?ref=designletterco" target="__blank">Aakarshna</a> & <a href="https://vijayverma.co/?ref=designletterco" target="__blank">vijay verma</a></h4>
