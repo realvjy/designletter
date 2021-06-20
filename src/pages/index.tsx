@@ -2,7 +2,7 @@
 import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import SponserBox from "../components/sponser-box"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -100,16 +100,18 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
           <div className="latest-issue">
             <hr/>
-            <a href="https://bit.ly/designletter-49" className="issue-box">
-              <h5>Latest Issue #49 • June 9, 2021</h5>
-              <h2>The Golden Ratio <img src="arrow.svg"/></h2>
+            <a href="https://bit.ly/designletter-50" className="issue-box">
+              <h5>Latest Issue #50 • June 17, 2021</h5>
+              <h2>Become a Successful Freelance Designer <img src="arrow.svg"/></h2>
             </a>
           </div>
+
 
         </div>
       </section>
       <footer className="footer">
         <div className="container">
+          <SponserBox />
           <div className="footer-wrap">
             <div className="credit">
               <h4>Designletter, 2021</h4>

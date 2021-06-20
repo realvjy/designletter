@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SponserBox from "../components/sponser-box"
 
 class Sponsership extends React.Component {
   render() {
@@ -62,6 +63,7 @@ class Sponsership extends React.Component {
         </section>
         <footer className="footer">
           <div className="container">
+            <SponserBox />
             <div className="footer-wrap">
               <div className="credit">
                 <h4>Designletter, 2021</h4>

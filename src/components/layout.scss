@@ -94,6 +94,7 @@ a{
   -ms-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
+  color: $light-blue;
 }
 img{
   vertical-align: middle;
@@ -506,11 +507,10 @@ section{
       color: #ffffff;
       font-size: 24px;
       font-weight: 700;
-      line-height: 40px;
+      line-height: 118%;
       letter-spacing: -.5px;
       @media (max-width: $mobile-landscape){
           margin-top: 8px;
-          line-height: 32px;
           font-size: 21px;
       }
       img{
@@ -635,6 +635,102 @@ section{
     letter-spacing: -.5px;
     &:hover{
       color: #ffffff;
+    }
+  }
+}
+
+.sponser-feat{
+  padding: 16px;
+  hr{
+    border: none;
+    height: 2px;
+    color: #333;
+    opacity: .6;
+    background-color: #0227AA;
+    margin-bottom: 24px;
+  }
+  h3{
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    color: $light-blue;
+    @media (max-width: $mobile-landscape){
+      font-size: 20px;
+      line-height: 24px;
+    }
+    a{
+      color: $white;
+      font-weight: 600;
+      border-bottom: .5px dotted $light-blue;
+      &:hover{
+        color: $light-blue;
+      }
+    }
+  }
+  a.know{
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+    line-height: 110%;
+    display: inline-block;
+    color: $light-blue;
+    opacity: .6;
+    border-bottom: .5px dotted $light-blue;
+    &:hover{
+      color: $white;
+    }
+    @media (max-width: $mobile-landscape){
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+
+  .sponser-box{
+    display: block;
+    background: $blue-2;
+    border-radius: 12px;
+    padding: 16px;
+    @media (max-width: $mobile-landscape){
+      padding: 12px;
+    }
+    &:hover{
+      background: darken($blue-2, 2%);
+    }
+    .sponser-wrap{
+      display: flex;
+      line-height: normal;
+      flex-direction: row;
+      vertical-align: middle;
+      align-items: center;
+      @media (max-width: $mobile-landscape){
+        flex-direction: column;
+      }
+      .sponser-img{
+        img{
+          width: 340px;
+          margin-right: 12px;
+          border-radius: 12px;
+          @media (max-width: $mobile-landscape){
+            width: 100%;
+          }
+        }
+      }
+      .sponser-txt{
+        width: auto;
+        p{
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 120%;
+          @media (max-width: $mobile-landscape){
+            font-size: 20px;
+            margin-top: 12px;
+          }
+        }
+        img{
+          opacity: .6;
+        }
+      }
     }
   }
 }
