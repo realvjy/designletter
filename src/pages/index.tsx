@@ -100,9 +100,9 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
 
           <div className="latest-issue">
             <hr/>
-            <a href="https://bit.ly/designletter-50" className="issue-box">
-              <h5>Latest Issue #50 • June 17, 2021</h5>
-              <h2>Become a Successful Freelance Designer <img src="arrow.svg"/></h2>
+            <a href="https://bit.ly/designletter-51" className="issue-box">
+              <h5>Latest Issue #51 • June 23, 2021</h5>
+              <h2>All about digital illustration <img src="arrow.svg"/></h2>
             </a>
           </div>
 
