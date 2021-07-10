@@ -48,11 +48,11 @@ class Sponsership extends React.Component {
               <h4>Newsletter Stats</h4>
               <p>
               Email subscribers: 2,500+<br/>
-              Newsletter open rate: 35%<br/>
+              Newsletter open rate: 35-38%<br/>
               Newsletter click rate: 7%
               </p>
               <p>
-              We only run <strong>1 ad per issue</strong> to provide our sponsor with maximum visibility while maintaining the quality of the newsletter. The newsletter is sent out every 7 days on Wednesday. <a href="https://bit.ly/sponser-designletter">Example.</a></p>
+              We only run <strong>1 ad per issue</strong> to provide our sponsor with maximum visibility while maintaining the quality of the newsletter. The newsletter is sent out every 7 days on Wednesday. <a href="https://bit.ly/sponser-designletter">Example 1, </a> <a href="https://bit.ly/designletter-31">Example 2.</a></p>
 ‍
 <p><a href="https://forms.gle/CdoD7Eqjp8vFNwzC7">Click here</a> to learn more about the pricing and content requirements.</p>
 ‍
